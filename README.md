@@ -3,13 +3,14 @@
 ## Models Used
 
 - SVM (Support Vector Machine) for Placement Prediction (Classification)
-- K-Nearest Neighbors (KNN) for Placement Prediction
+- K-Nearest Neighbors (KNN) for Placement Prediction (Classification)
 - Logistic Regression for Placement Prediction (Classification) and Salary Prediction (Regression)
-- Gradient Boosting Machines for Salary Prediction
-- Random Forest for Placement Prediction (Classification)
+- Gradient Boosting Machines for Salary Prediction (Regression)
+- Random Forest for Salary Prediction (Regression)
 
 ## Structure of the Repository
-
+1. **[PredictiveModels](https://github.com/fromjyce/HireMeHorizon/tree/PredictiveModels)** Branch contains all models that were involved in the development for placement prediction and salary estimation.
+2. **[Raahul-codes](https://github.com/fromjyce/HireMeHorizon/tree/Raahul-codes)** Branch  contains only those models that were involved in the development for placement prediction.
 
 ## Running the Programs
 The programs have been tested on the Visual Studio Code IDE in Windows 11.
