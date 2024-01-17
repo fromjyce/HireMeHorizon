@@ -9,7 +9,7 @@
 - Random Forest for Salary Prediction (Regression)
 
 ## Structure of the Repository
-1. **[Placement_Data_Full_Class.csv](https://github.com/fromjyce/HireMeHorizon/blob/PredictiveModels/Placement_Data_Full_Class.csv) - The dataset that was used for the model development by us
+1. **[Placement_Data_Full_Class.csv](https://github.com/fromjyce/HireMeHorizon/blob/PredictiveModels/Placement_Data_Full_Class.csv)** - The dataset that was used for the model development by us
 2. **[PredictiveModels](https://github.com/fromjyce/HireMeHorizon/tree/PredictiveModels)** Branch contains all models that were involved in the development for placement prediction and salary estimation.
 3. **[Raahul-codes](https://github.com/fromjyce/HireMeHorizon/tree/Raahul-codes)** Branch  contains only those models that were involved in the development for placement prediction.
 4. **[Campus_Placement_and_Salary_Prediction.pdf](https://github.com/fromjyce/HireMeHorizon/blob/PredictiveModels/Campus_Placement_and_Salary_Prediction.pdf)** - The research paper written by us comprehensively explains our models and their results.
