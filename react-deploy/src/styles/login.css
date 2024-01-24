@@ -19,26 +19,31 @@ header {
 
 nav {
   text-align: right;
-  height: fit-content;
+  /* height: fit-content; */
   /* top: 35px; */
+  padding: 1%;
   width: fit-content;
   margin-left: auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  /* justify-content: space-between; */
 }
 
 .main-nav{
+  margin: 0px;
+  padding: 0px;
   display: flex;
   list-style: none;
+  /* padding: auto 10px; */
+  justify-content: center;
+}
+
+.main-nav li{
+  /* padding: auto 5px autp 5px; */
+  list-style-position: outside;
 }
 
 .aboutus {
-  /* position: absolute; */
-  /* margin-right: 50%; */
-  /* top: 35px; */
-  align-items: center;
-  margin-top: 5px;
-  padding: 10px 20px 10px 0;
   font-size: 15px;
   cursor: pointer;
 }
@@ -53,14 +58,9 @@ nav {
 }
 
 .register {
-  /* position: absolute; */
   border-color: #000000;
   border-radius: 20px;
-  /* margin-left: 77%; */
-  /* top: 28px; */
   cursor: pointer;
-  /* margin-left: 15px; */
-  /* margin-right: 15px; */
   background-color: #26baee;
   width: 100px;
   height: 32px;

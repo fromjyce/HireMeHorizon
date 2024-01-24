@@ -11,7 +11,7 @@ function Login() {
         <img alt={"logo"} src={logo} height={75} width={210} />
         <nav>
           <ul className='main-nav'>
-            <li>
+            <li className="first">
               <a href="premain.html" className="aboutus">
                 About Us
               </a>
