@@ -1,4 +1,6 @@
-import logo from "./LogoTrans.png";
+import logo from "../assets/LogoTrans.png";
+
+import "../styles/login.css";
 
 function Login() {
   return (
@@ -10,7 +12,7 @@ function Login() {
       <header>
         <img alt={"logo"} src={logo} height={75} width={210} />
         <nav>
-          <ul className='main-nav'>
+          <ul className="main-nav">
             <li className="first">
               <a href="premain.html" className="aboutus">
                 About Us
