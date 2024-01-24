@@ -1,31 +1,10 @@
-import logo from "../assets/LogoTrans.png";
-
 import "../styles/login.css";
+import Header from './Header.js';
 
 function Login() {
   return (
     <>
-      <title>Sign In</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-      <link href="login.css" rel="stylesheet" />
-      <header>
-        <img alt={"logo"} src={logo} height={75} width={210} />
-        <nav>
-          <ul className="main-nav">
-            <li className="first">
-              <a href="premain.html" className="aboutus">
-                About Us
-              </a>
-            </li>
-            <li>
-              <form action="register.html">
-                <button className="register">Register</button>
-              </form>
-            </li>
-          </ul>
-        </nav>
-      </header>
+    <Header />
       <div className="container">
         <p className="heading">Sign In HIREMEHORIZON</p>
         {/* {% if error_message %}

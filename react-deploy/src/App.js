@@ -1,14 +1,9 @@
-
-
-// import Home from './components/Home.js'
-//import Login from './components/Login.js'
-import Header from './components/Header.js';
-
+import Login from './components/Login.js';
 
 function App() {
   return (
     <>
-    <Header/>
+    <Login />
     </>
   );
 }
