@@ -1,5 +1,4 @@
 import "../styles/login.css";
-import Header from "./Header.js";
 import React, { useEffect } from "react";
 
 function Login() {
@@ -13,9 +12,8 @@ function Login() {
     <>
       <div className="Login" id="Login">
         <div className="login-container">
-          <Header />
           <div className="container">
-            <p className="heading">SIGN IN</p>
+            <p className="heading">Sign In to HIREMEHORIZON</p>
             {/* {% if error_message %}
       <p class="errormessage">{{ error_message }}</p>
       {% endif %} */}
