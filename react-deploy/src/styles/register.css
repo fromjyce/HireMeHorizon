@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #efefef;
+}
+
+.register-container{
+  margin: auto 0;
+}
+
+h1 {
+  /* margin-bottom: 15px; */
+  margin-top: 3%;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  /* left: 500px; */
+  width: 900px;
+  margin: 20px auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  height: 450px;
+  position: relative;
+  box-shadow: 2px 2px #b8b8b8;
+}
+
+.left{
+  background-image: linear-gradient(#26baee, #009bff);
+  height: 100%;
+  width: 300px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.info{
+  margin: 43% auto auto auto;
+  width: 100%;
+}
+
+.acc, .personal, .edu{
+  padding: 10px 0 10px 0;
+  cursor: pointer;
+  margin: 5px auto 5px auto;
+}
+
+.circle1 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: auto auto 5px auto;
+}
+
+.numbers{
+  text-align: center; 
+  color: #fff; 
+  font-size: 22px;
+}
+
+.info-word{
+  color: #fff;
+  margin: auto auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.accinfo {
+  margin: auto 20px;
+  left: 320px;
+  /* top: 0; */
+  position: absolute;
+  visibility: hidden;
+}
+
+.persoinfo {
+  margin: auto 20px;
+  left: 320px;
+  /* top: 100px; */
+  position: absolute;
+  /* visibility: hidden; */
+}
+
+.persoinfo li{
+  list-style: none;
+}
+.eduinfo {
+  margin: auto 20px;
+  left: 320px;
+  /* top: 0; */
+  position: absolute;
+  visibility: hidden;
+}
+
+.acc-para, .perso-para, .edu-para{
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.input-acc{
+  position: relative;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 250%;
+  padding: 10px 10px;
+  margin: 5px auto 20px auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.save {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  cursor: pointer;
+  width: 150px;
+  left: 100%;
+  margin: 20px auto auto auto;
+  position: absolute;
+}
+
+.save:hover {
+  background-color: #555;
+}
