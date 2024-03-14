@@ -25,12 +25,12 @@ body::before {
 .container {
     max-width: 350px;
     height: auto;
-    margin: 300px;
+    /* margin: 300px; */
     padding: 20px;
     background-image: linear-gradient(#26baee, #009bff);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 22vh;
+    margin: 10% auto auto 35%;
 }
 .heading {
     text-align: center;
