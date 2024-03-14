@@ -24,8 +24,8 @@ body::before {
 
 .container {
     max-width: 350px;
-    height: 320px;
-    margin: auto;
+    height: auto;
+    margin: 300px;
     padding: 20px;
     background-image: linear-gradient(#26baee, #009bff);
     border-radius: 5px;

@@ -1,11 +1,11 @@
-import Login from './components/Login.js';
-// import Register from './components/Register.js';
+// import Login from './components/Login.js';
+import Register from './components/Register.js';
 
 function App() {
   return (
     <>
-    <Login />
-    {/* <Register /> */}
+    {/* <Login /> */}
+    <Register />
     </>
   );
 }

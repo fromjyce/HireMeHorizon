@@ -87,10 +87,14 @@ h1 {
 
 .persoinfo {
   margin: auto 20px;
+  height: 420px;
+  width: 550px;
   left: 320px;
   /* top: 100px; */
   position: absolute;
   /* visibility: hidden; */
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .persoinfo li{
@@ -116,7 +120,7 @@ h1 {
 
 input[type="text"],
 input[type="password"] {
-  width: 250%;
+  width: 90%;
   padding: 10px 10px;
   margin: 5px auto 20px auto;
   border: 1px solid #000;
@@ -132,8 +136,8 @@ input[type="password"] {
   cursor: pointer;
   width: 150px;
   left: 100%;
-  margin: 20px auto auto auto;
-  position: absolute;
+  margin: 0 auto;
+  /* position: absolute; */
 }
 
 .save:hover {
