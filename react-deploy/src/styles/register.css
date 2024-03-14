@@ -79,20 +79,22 @@ h1 {
 
 .accinfo {
   margin: auto 20px;
+  height: 430px;
+  width: 550px;
   left: 320px;
   /* top: 0; */
   position: absolute;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .persoinfo {
   margin: auto 20px;
-  height: 420px;
+  height: 430px;
   width: 550px;
   left: 320px;
   /* top: 100px; */
   position: absolute;
-  /* visibility: hidden; */
+  visibility: hidden;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -100,18 +102,26 @@ h1 {
 .persoinfo li{
   list-style: none;
 }
+
 .eduinfo {
-  margin: auto 20px;
+  margin: 5% 30px;
   left: 320px;
+  height: 430px;
+  width: 550px;
   /* top: 0; */
   position: absolute;
   visibility: hidden;
 }
 
+.eduinfo li{
+  list-style: none;
+}
+
 .acc-para, .perso-para, .edu-para{
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 15px;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 
 .input-acc{
@@ -136,7 +146,7 @@ input[type="password"] {
   cursor: pointer;
   width: 150px;
   left: 100%;
-  margin: 0 auto;
+  margin: 0 35%;
   /* position: absolute; */
 }
 

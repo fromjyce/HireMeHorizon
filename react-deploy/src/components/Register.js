@@ -161,7 +161,8 @@ function Register() {
             </form>
             <form className="eduinfo">
             <p className="edu-para">Educational Information</p>
-            <div className=""input-edu>
+            <ul className="input-edu">
+              <li>
               <p>Stream/Domain</p>
               <input
                 type="text"
@@ -169,6 +170,8 @@ function Register() {
                 placeholder="Your Stream/Domain"
                 required
               />
+              </li>
+              <li>
               <p>Institution</p>
               <input
                 type="text"
@@ -176,6 +179,8 @@ function Register() {
                 placeholder="Your Institution"
                 required
               />
+              </li>
+              <li>
               <p>Year of Graduation</p>
               <input
                 type="text"
@@ -183,7 +188,11 @@ function Register() {
                 placeholder="Your Year of Graduation"
                 required
               />
-              </div>
+              </li>
+              <button className="save" type="submit">
+                  Save and Next
+                </button>
+              </ul>
             </form>
           </div>
         </div>
